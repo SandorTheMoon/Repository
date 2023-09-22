@@ -52,7 +52,7 @@ section {
   .nav-links {
     position: relative;
     display: flex;
-    left: 40%;
+    left: 50%;
   }
 
   .nav-links li {
@@ -96,12 +96,79 @@ section {
   }
 
   .intro-msg h1 {
+    display: inline-block;
     font-size: 75px;
     color: #FF0060;
+    width: 100%;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+      typing 3s steps(23),
+      cursor .4s step-end infinite alternate;
+  }
+
+  @keyframes typing {
+    from { width: 0; }
   }
 
   .intro-msg h3 {
     text-decoration-line: overline;
     font-size: 25px;
     color:#00DFA2;
+  }
+
+/* --- 2ND SECTION --- */
+  /* About Container */
+
+  .about-container {
+    position: relative;
+    display: flex;
+  }
+
+  #about h1 {
+    position: relative;
+    display: flex;
+    color: #FF0060;
+    font-size: 50px;
+    left: 100px;
+  }
+
+  .about-infos {
+    background-color: rgb(18, 18, 18);
+    position: relative;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    left: 100px;
+    top: 50px;
+    padding: 50px;
+  }
+
+  .about-infos2 {
+    background-color: rgb(18, 18, 18);
+    position: relative;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    left: 170px;
+    top: 50px;
+    padding: 50px;
+  }
+  
+  .about-infos p {
+    color:#00FF41;
+    font-size: 20px;
+  }
+  
+  .about-infos2 p {
+    color:#00FF41;
+    font-size: 17.5px;
+  }
+
+  .about-infos2 .p1 {
+    color:#00FF41;
+    font-size: 20px;
   }
