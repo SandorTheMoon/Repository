@@ -122,7 +122,7 @@ section {
   /* About Container */
 
   .about-container {
-    position: relative;
+    position: absolute;
     display: flex;
   }
 
@@ -142,7 +142,7 @@ section {
     border-width: 1px;
     border-radius: 10px;
     left: 100px;
-    top: 50px;
+    top: 40px;
     padding: 50px;
   }
 
@@ -154,7 +154,7 @@ section {
     border-width: 1px;
     border-radius: 10px;
     left: 170px;
-    top: 50px;
+    top: 40px;
     padding: 50px;
   }
   
@@ -174,17 +174,36 @@ section {
   }
 
   .section2-btn {
-    position: absolute;
+    position: relative;
     padding-top: 6%;
-    top: 100%;
-    left: 48%;
+    right: 41%;
+    top: 380px;
+  }
+
+  .section2-btn button {
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    box-shadow: 0px 9px rgb(81, 0, 0);
+    transition: 0s;
+  }
+
+  .section2-btn button:active {
+    background-color: rgb(0, 181, 0);
+    box-shadow: 0px 6px rgb(0, 81, 0);
+    transform: translateY(3px);
   }
 
   /* 2ND SECTION (part2) */
 
-  #about2 {
-    position: relative;
+  .about2-container {
+    position: absolute;
     display: flex;
+    align-self: center;
   }
 
   #about2 h1 {
@@ -204,7 +223,7 @@ section {
     border-width: 1px;
     border-radius: 10px;
     left: 170px;
-    top: 100px;
+    top: 40px;
     padding: 50px;
   }
 
