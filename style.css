@@ -307,6 +307,54 @@ section {
     text-align: center;
   }
 
+/* --- 4TH SECTION --- */
+
+  #contact h1{
+    position: relative;
+    top: 4%;
+    color: #FF0060;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .contact-container {
+    position: relative;
+    border-color: rgb(89, 89, 89);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(18, 18, 18);
+    padding: 50px;
+    height: 260px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+
+  .contact-container p {
+    text-align: center;
+    color: #00FF41;
+    padding-top: 20px;
+  }
+
+  .icons-text-container {
+    position: relative;
+    display: flex;
+    margin-top: 10%;
+    left: 8%;
+
+  }
+
+  .contact-container img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+
 
 
 
