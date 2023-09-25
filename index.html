@@ -6,13 +6,13 @@
     <title>Xander Espero Portforlio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="script.js"></script>
   </head>
-
 
   <body>
     
     <nav id="nav-bar">
-      <a href="#me" class="logo">Sandor</a>
+      <a href="#me" class="logo"><b>SANDOR</b></a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -22,19 +22,32 @@
 
     <section id="me">
       <div class="intro-msg">
-        <h2>
-          Hello! I am
-        </h2>
-        <h1>
-          Airysh Xander M. Espero
-        </h1>
+        <button class="click-me" onclick="changeImage();">
+          <img id="DP" src="./Assets/PROFILE.jpg" class="prof-pic" />
+        </button>
+        <h2>Hello! I am</h2>
+        <h1>Airysh Xander M. Espero</h1>
         <br>
         <br>
         <br>
-        <h3>
-          Backend & Frontend Developer
-        </h3>
+        <h3>Backend & Frontend Developer</h3>
+        <div class="social-icons">
+          <button class="downloadcv-btn" onclick="window.open('./Assets/ESPERO_CV.pdf')"><b>DOWNLOAD CV</b></button>
+          <a href="https://www.linkedin.com/in/xander-espero-b671361b9" target="_blank">
+            <img src="./Assets/icons/LINKEDIN.png" alt="facebook"/>
+          </a>
+          <a href="https://github.com/SandorTheMoon" target="_blank">
+            <img src="./Assets/icons/GITHUB.png" alt="facebook"/>
+          </a>
+          <a href="https://www.facebook.com/xander.espero.7" target="_blank">
+            <img src="./Assets/icons/FB.png" alt="facebook"/>
+          </a>
+          <a href="https://www.instagram.com/sandorespero/" target="_blank">
+            <img src="./Assets/icons/IG.png" alt="facebook"/>
+          </a>
+        </div>
       </div>
+      
     </section>
 
     <section id="about">

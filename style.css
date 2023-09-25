@@ -45,14 +45,16 @@ section {
 
   .logo {
     position: relative;
-    color: white;
+    color: #F6FA70;
+    text-decoration: none;
+    font-size: 30px;
     left: 15%;
   }
 
   .nav-links {
     position: relative;
     display: flex;
-    left: 50%;
+    left: 40%;
   }
 
   .nav-links li {
@@ -82,20 +84,30 @@ section {
     padding-right: 30px;
   }
 
+  /* Hamburger Nav */
+
+  #hamburger-nav {
+    display: none;
+  }
+ 
   /* Intro Message */
 
   .intro-msg {
     position: absolute;
     color: #F6FA70;
     left: 100px;
-    top: 250px;
+    top: 200px;
   }
 
   .intro-msg h2 {
+    position: relative;
     font-size: 50px;
+    left: 300px;
   }
 
   .intro-msg h1 {
+    position: relative;
+    left: 300px;
     display: inline-block;
     font-size: 75px;
     color: #FF0060;
@@ -113,9 +125,60 @@ section {
   }
 
   .intro-msg h3 {
+    position: relative;
+    left: 300px;
     text-decoration-line: overline;
     font-size: 25px;
     color:#00DFA2;
+  }
+
+  .social-icons {
+    position: relative;
+    display: flex;
+    top: 100px;
+  }
+
+  .social-icons img {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin-top: 20%;
+    margin-left: 15px;
+  }
+
+  
+  .social-icons button {
+    position: relative;
+    display: flex;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: red;
+    box-shadow: 0px 9px rgb(81, 0, 0);
+    transition: 0s;
+  }
+
+  .social-icons button:active {
+    background-color: rgb(0, 181, 0);
+    box-shadow: 0px 6px rgb(0, 81, 0);
+    transform: translateY(3px);
+  }
+
+  .prof-pic {
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    border-style: solid;
+    border-color: rgb(89, 89, 89);
+    border-width: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+  .prof-pic:hover {
+    opacity: .3;
   }
 
 /* --- 2ND SECTION --- */
