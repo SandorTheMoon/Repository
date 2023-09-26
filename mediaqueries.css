@@ -1,9 +1,169 @@
-@media screen and (max-width: 1200px) {
-    #desktop-nav {
-        display: none;
+@media only screen and (max-width: 1440px) {
+
+section {
+    padding-top: 130px;
+}
+
+.nav-links a {
+    font-size: 25px;
+}
+
+/* --- SECTION 2 --- */
+
+    .about-container {
+        left: 3.5%;
     }
 
-    #hamburger-nav {
-        display: flex;
+    .about2-container {
+        left: 28%;
     }
+
+    .about-infos {
+        width: 600px;
+    }
+
+    .about-infos2 {
+        width: 600px;
+    }
+
+    .section2-btn {
+        left: -42.5%;
+    }
+
+    .section2-btn a {
+        padding-left: 20px;
+    }
+
+/* --- SECTION 3 --- */
+
+    .projects-container {
+        left: 18.5%;
+    }
+
+/* --- SECTION 4 --- */
+
+    #contact {
+        margin-bottom: 100px;
+    }
+
+    #contact h1 {
+        top: 3%;
+        left: 9%;
+    }
+
+    .contact-container {
+        top: 3%;
+        left: 9%;
+    }
+
 }
+
+@media only screen and (max-width: 1024px) {
+
+section {
+    padding-top: 100px;
+    height: 150vh;
+    margin: 0px;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.nav-links {
+    left: 30%;
+}
+
+/* --- SECTION 1 --- */
+
+    #about h1 {
+        font-size: 40px;
+    }
+
+    .intro-msg {
+        top: 250px;
+    }
+
+    .intro-msg h2{
+        left: 250px;
+        font-size: 40px;
+    }
+
+    .intro-msg h1 {
+        left: 250px;
+        font-size: 60px;
+    }
+
+    .intro-msg h3 {
+        left: 250px;
+        font-size: 20px;
+    }
+
+    .prof-pic {
+        height: 200px;
+        width: 200px;
+    }
+
+    .social-icons {
+        top: 150px;
+        left: 10px;
+    }
+
+/* --- SECTION 2 --- */
+
+    #about2 h1 {
+        font-size: 40px;
+    }
+
+    .about-infos3 {
+        left: 15%;
+    }
+
+    .about-infos {
+        left: 50px;
+        width: 480px;
+    }
+
+    .about-infos p {
+        font-size: 17px;
+    }
+
+    .about-infos2 {
+        left: 110px;
+        width: 480px;
+    }
+
+    .about-infos2 .p1 {
+        font-size: 17px;
+    }
+
+    .about-infos2 p {
+        font-size: 15px;
+    }
+
+    .section2-btn {
+        left: -45%;
+    }
+
+/* --- SECTION 3 --- */
+
+    #projects h1 {
+        font-size: 40px;
+    }
+
+    .projects-container {
+        left: 75px;
+        top: 15%;
+    }
+
+/* --- SECTION 4 --- */
+
+    #contact h1 {
+        left: 13%;
+    }
+
+    .contact-container {
+        left: 13%
+    }
+
+}
+    
+
