@@ -6,7 +6,6 @@
     <title>Xander Espero Portforlio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-    <script src="script.js"></script>
   </head>
 
   <body>
@@ -20,6 +19,22 @@
       </ul>
     </nav>
 
+    <nav id="hamburger-nav">
+      <div class="logo1"><a href="#me"><b>ESPERO</b></a></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+        </div>
+      </div>
+    </nav>
+    
     <section id="me">
       <div class="intro-msg">
         <button class="click-me" onclick="changeImage();">
@@ -47,7 +62,6 @@
           </a>
         </div>
       </div>
-      
     </section>
 
     <section id="about">
@@ -156,7 +170,8 @@
         </div>
       </div>
     </section>
-    
+
+    <script src="script.js"></script>
   </body>
 
 </html>

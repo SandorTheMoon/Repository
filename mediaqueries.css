@@ -1,6 +1,11 @@
 @media only screen and (max-width: 1440px) {
 
+#hamburger-nav {
+    display: none;
+}
+
 section {
+    height: 120vh;
     padding-top: 130px;
 }
 
@@ -166,4 +171,16 @@ section {
 
 }
     
+@media only screen and (max-width: 768px) {
+    #nav-bar {
+        display: none;
+    }
 
+    #hamburger-nav {
+        display: flex;
+        position: fixed;
+        gap: 1350%;
+        top: 2%;
+    }
+    
+}
