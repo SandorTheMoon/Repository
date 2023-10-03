@@ -260,3 +260,158 @@ section {
     }
 
 }
+
+@media only screen and (max-width: 426px) {
+
+    body {
+        overflow: visible;
+    }
+
+    section {
+        height: 400vh;
+        width: 180vh;
+    }
+
+    .prof-pic {
+        position: absolute;
+        height: 500px;
+        width: 500px;
+        border-style: solid;
+        border-color: rgb(51, 51, 51);
+        border-width: 5px;
+        border-radius: 10px;
+        transition: .1s;
+        left: -7px;
+        top: -7px;
+    }
+
+    .intro-msg .click-me {
+        position: relative;
+        left: 250px;
+        height: 500px;
+        width: 500px;
+        margin-bottom: 100px;
+    }
+
+    .intro-msg {
+        text-align: center;
+        left: 0px;
+    }
+
+    .intro-msg h2{
+        left: 250px;
+        font-size: 60px;
+    }
+
+    .intro-msg h1 {
+        left: 250px;
+        font-size: 80px;
+    }
+
+    .intro-msg h3 {
+        left: 250px;
+        font-size: 40px;
+    }
+
+    .social-icons img {
+        right: 80%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .social-icons button {
+        font-size: 60px;
+        right: 15%;
+    }
+
+    #about h1 {
+        font-size: 100px;
+    }
+
+    .about-infos {
+        left: 15%;
+        width: 1200px;
+        height: 500px;
+    }
+
+    .about-infos2 {
+        left: 15%;
+        width: 1200px;
+        height: 500px;
+    }
+
+    .about-infos p {
+        font-size: 37px;
+    }
+
+    .about-infos2 .p1 {
+        font-size: 37px;
+    }
+
+    .about-infos2 p {
+        font-size: 37px;
+    }
+
+    .section2-btn {
+        left: 50%;
+    }
+
+    .section2-btn button{
+        font-size: 50px;
+    }
+
+    #about2 h1 {
+        font-size: 100px;
+    }
+
+    .about-infos3 {
+        left: 33%;
+        width: 800px;
+        height: 600px;
+    }
+
+    .about-infos3 p {
+        font-size: 45px;
+    }
+
+    #projects h1 {
+        position: relative;
+        font-size: 100px;
+    }
+
+    .projects-container {
+        left: 7%;
+    }
+
+    .projects-btn {
+        padding: 50px;
+        margin-left: 100px;
+        height: 700px;
+    }
+
+    .projects-btn p {
+        font-size: 45px;
+    }
+
+    #contact h1 {
+        font-size: 100px;
+        left: 23%;
+    }
+
+    .contact-container {
+        left: 17%;;
+        height: 700px;
+        width: 1200px;
+    }
+
+    .contact-container p {
+        font-size: 45px;
+    }
+
+    .icons-text-container {
+        left: 0px;
+        display: block;
+    }
+
+
+}
