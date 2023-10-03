@@ -88,11 +88,16 @@ section {
   
   #hamburger-nav {
     display: none;
+    position: fixed;
+    background-color: rgb(18, 18, 18);
+    height: 50px;
+    width: 100%;
   }
 
   .hamburger-menu {
     position: relative;
     display: inline-block;
+    top: 25%;
   }
 
   .hamburger-icon {
@@ -119,7 +124,7 @@ section {
     width: fit-content;
     max-height: 0;
     overflow: hidden;
-    transition: all 0.3 ease-in-out;
+    transition: all .8s ease-in-out;
   }
 
   .menu-links a {
@@ -137,7 +142,8 @@ section {
   }
   
   .menu-links.open {
-    max-height: 300px;
+    max-height: 1000px;
+
   }
   
   .hamburger-icon.open span:first-child {
@@ -149,8 +155,7 @@ section {
   }
   
   .hamburger-icon.open span:last-child {
-    animation: slide-in 0.5s forwards;
-    -webkit-animation: slide-in 0.5s forwards;
+    transform: rotate(45deg) translate(10px, 5px);
   }
   
   .hamburger-icon span:first-child {
@@ -279,7 +284,7 @@ section {
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
-    left:80px;
+    left: 80px;
     top: 40px;
     width: 550px;
     padding: 50px;
